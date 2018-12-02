@@ -24,7 +24,7 @@ body{margin:0;}
 .navbar{
 	/*position: fixed!important; no me funciono pero boostrap tiene la clase fix on top  */ 
 	max-width: 100%;
-	background-color:#4c89cc;
+	background-color:#000000;
 	z-index: 100;
 }
 .row{
@@ -111,5 +111,75 @@ background: url(../../assets/images/cont-img/personas.jpg) no-repeat top center 
 margin-bottom: 50px;
 height: 50%;
 }
+
+
+
+/*INDEX*/
+
+	.tmpl-lp .lp-box.lp-box-video-HD {
+		padding: 20px 0;
+		border-bottom: 2px solid #000000;
+	}
+
+	.tmpl-lp .lp-box .lp-box-title {
+		font-size: 30px;
+		color: tomato;
+	}
+	.tmpl-lp .lp-box .lp-box-p {
+		font-size: 17px;
+	}
+
+			.img-align {text-align: left;}
+@media (max-width: 768px) {
+	.tmpl-lp .btn.btn-black {
+		background-color: #000000;
+		color: #ffffff;
+		margin: 10%  auto;
+	}
+		.img-align {text-align: left;}
+  }
+
+	.tmpl-lp .lp-box {
+		align-items: center;
+		height: auto;
+	}
+
+
+	
+
+
+
+
+
+
+/*Pag2 */
+ /*  body{
+     margin:0px;
+     width: 960px;
+     margin: auto;
+   } */
+
+   .sidebar-qn{
+/*   float: left;*/
+      width: 50%;
+     height: 100%;
+     padding-left:25px;
+     padding-right: 25px;
+     box-sizing: border-box;
+     background:black;
+     color:white;
+     display: table-cell;
+   } 
+
+   .main-qn{
+    margin-left:50%;
+    padding: 0 50px 0 50px;
+    display: table-cell;
+
+  }
+  .on-top-cont{
+  	margin-top: 52px;
+  }
+
 
 
