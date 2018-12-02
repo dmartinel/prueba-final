@@ -1,0 +1,115 @@
+body{margin:0;}
+
+
+
+
+.verde{
+	height: 3%;
+	background-color: #006341;
+
+}
+.main-header{
+
+}
+.main-header__logo
+
+
+/*Modificación cssB*/
+
+
+.navbar{
+	text-align: center;
+}
+
+.navbar{
+	/*position: fixed!important; no me funciono pero boostrap tiene la clase fix on top  */ 
+	max-width: 100%;
+	background-color:#4c89cc;
+	z-index: 100;
+}
+.row{
+	clear: both;	
+}
+
+.banner-top{
+	background-color: tomato; /*eliminar*/
+	box-sizing: border-box;
+	background-size: 100% auto;
+	height: 434px;
+	width: 100%;
+	padding: 15%;
+	margin-top: 5px;
+	/*background-size: cover;*/
+	box-sizing: border-box;
+/*	background-image: url(../../assets/images/cont-img/banner001.jpg);*/
+	background: url(../../assets/images/cont-img/banner002.jpg) no-repeat top center / cover transparent;
+}
+
+.banner-top2{
+	background-color: tomato; /*eliminar*/
+	box-sizing: border-box;
+	background-size: 100% auto;
+	height: 434px;
+	width: 100%;
+	padding: 15%;
+	box-sizing: border-box;
+	background: url(../../assets/images/cont-img/banner003.jpg) no-repeat top center / cover transparent;
+}
+
+.txt-bajada{
+	color: #fff; 
+	text-align: center !important; 
+	font-size: 28px;
+}
+.txt-banner-top{
+	color: #fff; 
+	text-align: center; 
+	font-size: 22px;
+	margin-top: 63px;
+}
+.page-header{
+	text-align: center;
+}
+
+.logo-footer {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		text-align: center;
+		width: 70px; 
+		height: 70px;
+		margin-left: 30%;
+
+}
+.texto-footer{
+	text-align: center; 
+	font-size: 14px;
+	color: #ccc; 
+}
+
+.icons{
+	margin: 0 160px;
+	color: #5c9cd6;
+
+}
+
+.foto1{
+border-radius: 5px;
+border-style: solid;
+border-color: #5c9cd6;
+box-sizing: border-box;
+background: url(../../assets/images/cont-img/personas1.jpg) no-repeat top center / cover transparent;
+margin-bottom: 50px;
+height: 50%;
+}
+
+.foto2{
+border-radius: 5px;
+border-style: solid;
+border-color: #5c9cd6;
+box-sizing: border-box;
+background: url(../../assets/images/cont-img/personas.jpg) no-repeat top center / cover transparent;
+margin-bottom: 50px;
+height: 50%;
+}
+
+
