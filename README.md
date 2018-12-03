@@ -17,6 +17,18 @@
 ⋅⋅* Formulario. 
 ⋅⋅* Map. 
 
+***
+
+<dl>
+  <dt>WIREFRAME</dt>
+  <dd>Completas las vistas</dd>
+
+  <dt>Documentar el HTML</dt>
+  <dd>Uso *appi* en el **html**<em>tags</em>.</dd>
+</dl>
+
+
+
 <!-- 
 ⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
 
