@@ -2,7 +2,7 @@
 
 1. Sitio HARLEY DAVIDSON
 2. INDEX
-⋅⋅* Menú sticky. 
++ Menú sticky. 
 ⋅⋅* Slider . 
 ⋅⋅* iframe-Video (autoplay). 
 ⋅⋅* Elementos destacados. 
