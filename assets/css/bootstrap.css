@@ -4621,7 +4621,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
 .navbar-inverse .navbar-nav > .disabled > a:focus {
-  color: orange;
+  color: #444;
   background-color: transparent;
 }
 .navbar-inverse .navbar-toggle {
@@ -5024,6 +5024,7 @@ a.thumbnail.active {
 .thumbnail .caption {
   padding: 9px;
   color: #333;
+  text-align: center;
 }
 .alert {
   padding: 15px;
