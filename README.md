@@ -3,19 +3,19 @@
 1. Sitio HARLEY DAVIDSON
 2. INDEX
 + Menú sticky. 
-⋅⋅* Slider . 
-⋅⋅* iframe-Video (autoplay). 
-⋅⋅* Elementos destacados. 
++ Slider . 
++ iframe-Video (autoplay). 
++ Elementos destacados. 
 3. Quienes Somos
-⋅⋅1. Página con contenido estático.
+1. Página con contenido estático.
 4. Ventas
 5. Servicios
 6. Accesorios
 6. Noticias
-⋅⋅* Appi. 
+* Appi. 
 7. Contacto
-⋅⋅* Formulario. 
-⋅⋅* Map. 
+* Formulario. 
+* Map. 
 
 ***
 
@@ -28,6 +28,7 @@
 </dl>
 
 
+***
 
 <!-- 
 ⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
@@ -35,17 +36,18 @@
 ⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
 ⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
 ⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-* Unordered list can use asterisks
+-->
+* Link directo a los contenidos
 - Or minuses
-+ Or pluses -->
++ Or pluses 
 
 <li><a href="quienes-somos.html">Quienes Somos</a></li>
-					<li><a href="ventas.html">Ventas</a></li>
-					<li><a href="servicios.html">Servicios</a></li>
-					<li><a href="accesorios.html">Accesorios</a></li>
-					<li><a href="noticias.html">Noticias</a></li>
+<li><a href="ventas.html">Ventas</a></li>
+<li><a href="servicios.html">Servicios</a></li>
+<li><a href="accesorios.html">Accesorios</a></li>
+<li><a href="noticias.html">Noticias</a></li>
 
+***
 
 Wireframe - página 1
 
@@ -60,6 +62,7 @@ Wireframe - página 1
 
 </div>
 
+***
 
 <p>Prueba-Final - Etapa 2 - maqueta HTML  6:53pm
 Pruebas Mobile  </p>
