@@ -4,18 +4,21 @@
 2. INDEX
 + Menú sticky. 
 + Slider . 
-+ iframe-Video (autoplay). 
++ iframe-Video. 
 + Elementos destacados. 
-3. Quienes Somos
-1. Página con contenido estático.
-4. Ventas
-5. Servicios
-6. Accesorios
-6. Noticias
-* Appi. 
-7. Contacto
-* Formulario. 
-* Map. 
+2. ABOUT US
++ Banner desktop y Mobile utilizando <source media="">
++ Utlización de col-md
+3. OWNERS.
++ Clase Bootstrap - class="list-group
+4. PARTS & APPAREL
+5. EVENTS
++ Js contador
+6. RENT A BIKE
++ Carousel generico Bootstrap
+7. CONTAC US
+* Form Bootstrap
+* GoogleMap. 
 
 ***
 
@@ -27,6 +30,11 @@
   <dd>Uso *appi* en el **html**<em>tags</em>.</dd>
 </dl>
 
+###Referencias
+
+> "Sitio oficial HD", [Link](https://www.harley-davidson.com/us/en/motorcycles/2019/softail/breakout.html)
+> "Harley-Davidson Santiago Chile", [Link](https://www.h-dsantiago.cl/)
+> "Imágene contenidas ref", [Link](https://www.harley-davidson.com/content/dam/h-d/images)
 
 ***
 
@@ -38,15 +46,15 @@
 ⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 -->
 * Link directo a los contenidos
-- Or minuses
-+ Or pluses 
+###Links
 
-<li><a href="quienes-somos.html">Quienes Somos</a></li>
-<li><a href="ventas.html">Ventas</a></li>
-<li><a href="servicios.html">Servicios</a></li>
-<li><a href="accesorios.html">Accesorios</a></li>
-<li><a href="noticias.html">Noticias</a></li>
-
+[INDEX](quienes-somos.html)
+[ABOUT US](servicios.html)
+[OWNERS](accesorios.html)
+[PARTS & APPAREL](noticias.html)
+[EVENTS](noticias.html)
+[RENT A BIKE](rent.html)
+[CONTAC US](contacto.html)
 ***
 
 Wireframe - página 1
