@@ -15,7 +15,7 @@
 5. EVENTS
 + Js contador
 6. RENT A BIKE
-+ Carousel generico Bootstrap
++ Carousel genérico Bootstrap
 7. CONTAC US
 * Form Bootstrap
 * GoogleMap. 
@@ -48,13 +48,13 @@
 * Link directo a los contenidos
 ###Links
 
-[INDEX](quienes-somos.html)
-[ABOUT US](servicios.html)
-[OWNERS](accesorios.html)
-[PARTS & APPAREL](noticias.html)
-[EVENTS](noticias.html)
-[RENT A BIKE](rent.html)
-[CONTAC US](contacto.html)
+.[INDEX](quienes-somos.html)                    
+.[ABOUT US](servicios.html)                    
+[OWNERS](accesorios.html)                    
+[PARTS & APPAREL](noticias.html)                    
+[EVENTS](noticias.html)                    
+[RENT A BIKE](rent.html)                    
+[CONTAC US](contacto.html)                    
 ***
 
 Wireframe - página 1
