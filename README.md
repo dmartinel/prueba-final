@@ -30,10 +30,11 @@
   <dd>Uso *appi* en el **html**<em>tags</em>.</dd>
 </dl>
 
-###Referencias
+## Referencias
 
-> "Sitio oficial HD", [Link](https://www.harley-davidson.com/us/en/motorcycles/2019/softail/breakout.html)                    。
-> "Harley-Davidson Santiago Chile", [Link](https://www.h-dsantiago.cl/)。                    
+> "Sitio oficial HD", [Link](https://www.harley-davidson.com/us/en/motorcycles/2019/softail/breakout.html)                                        
+> "Harley-Davidson Santiago Chile", [Link](https://www.h-dsantiago.cl/)。   
+
 > "Imágene contenidas ref", [Link](https://www.harley-davidson.com/content/dam/h-d/images)。                    
 
 ***
@@ -46,7 +47,6 @@
 ⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 -->
 * Link directo a los contenidos
-###Links
 
 [INDEX](quienes-somos.html)                    
 [ABOUT US](servicios.html)                    
@@ -79,3 +79,16 @@ Pruebas Mobile  </p>
 	<img src="wf/Wf-HD-V03-mob.jpg" alt="img-WF">
 
 </div>
+
+
+
+<dl>
+  <dd>Vista INDEX</dd>
+</dl>
+
+![](wf/index.jpg)
+
+
+
+
+
