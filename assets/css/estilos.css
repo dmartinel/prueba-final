@@ -2,6 +2,69 @@ body{margin:0;}
 
 
 
+	/*<!--ESTILOS DEL CONTADOR-->*/
+
+	.contador li {
+		display: inline-block;
+		font-size: 1em;
+		list-style-type: none;
+		padding: 0.5em;
+		text-transform: uppercase;
+		color: #283052;
+
+
+	}
+
+	.contador li span {
+		display: block;
+		font-size: 1.9rem;
+		font-family: 'Lato', sans-serif;
+		margin-bottom: 5px;
+		padding: 5px;
+		background-color: #fff;
+		border-radius: 3px;
+		min-width: 30px;
+		font-weight: 300;
+		background-color: orange;
+	}
+
+
+	.contador {
+	position: relative;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ccc;
+
+	}
+
+	.contador p {
+		color: #000000;
+		text-align: center;
+	}
+
+	span#days {
+		display: none;
+	}
+
+	.relative {
+		position: relative;
+	}
+
+	.clear {
+		clear: both;
+	}
+
+	
+
+
+
+		.contador li {
+			font-size: 0.5em;
+			padding: 1em;
+		}
+
 
 .verde{
 	height: 3%;

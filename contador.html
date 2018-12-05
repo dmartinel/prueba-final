@@ -1,0 +1,198 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+
+	<!--ESTILOS DEL CONTADOR-->
+<style>
+	.contador li {
+		display: inline-block;
+		font-size: 0.6em;
+		list-style-type: none;
+		padding: 0.5em;
+		text-transform: uppercase;
+		color: #283052;
+
+
+	}
+
+	.contador li span {
+		display: block;
+		font-size: 1.9rem;
+		font-family: 'Lato', sans-serif;
+		margin-bottom: 5px;
+		padding: 5px;
+		background-color: #fff;
+		border-radius: 3px;
+		min-width: 30px;
+		font-weight: 300;
+	}
+
+
+	.contador {
+		position: absolute;
+		top: 22%;
+		left: 2%;
+		text-align: center;
+		border-radius: 5px;
+
+	}
+
+	.contador p {
+		color: #fff;
+		text-align: center;
+	}
+
+	span#days {
+		display: none;
+	}
+
+	.relative {
+		position: relative;
+	}
+
+	.clear {
+		clear: both;
+	}
+
+	@media all and (max-width: 1260px) and (min-width: 1160px) {
+		.contador {
+			position: absolute;
+			top: 22%;
+			left: 2%;
+			text-align: center;
+			border-radius: 5px;
+
+		}
+		
+
+	}
+
+	@media all and (max-width: 1160px) and (min-width: 960px) {
+		.contador {
+			position: absolute;
+			top: 22%;
+			left: 0%;
+			text-align: center;
+			border-radius: 5px;
+
+		}
+		
+				.contador li {
+			font-size: 0.5em;
+			padding: 0.5em;
+		}
+	}
+
+	@media all and (max-width: 960px) and (min-width: 800px) {
+		.contador {
+			top: 22%;
+			left: -1%;
+			text-align: center;
+		}
+
+		.contador li span {
+			font-size: 1.3rem;
+			padding: 1px;
+		}
+	}
+
+	@media all and (max-width: 799px) and (min-width: 640px) {
+		.contador {
+			top: 22%;
+			left: 1.5%;
+			text-align: center;
+			min-width: 15px;
+			min-width: 10px;
+		}
+	.contador li span {
+			font-size: 1.0rem;
+			padding: 3px;
+		}
+		
+				.contador li {
+			font-size: 0.5em;
+			padding: 0.3em!important;
+		}
+	
+	}
+		
+	@media all and (max-width: 640px)  {
+		.contador {
+			top: 25%;
+			left: 3%;
+			text-align: center;
+			min-width: 15px;
+		}
+	
+			.contador li {
+			font-size: 0.3em;
+			padding: 0.2em!important;
+		}
+	
+	}
+
+
+
+		.contador li {
+			font-size: 0.5em;
+			padding: 1em;
+		}
+	
+</style>
+
+</head>
+<body>
+	
+
+
+
+
+<!-- image CONTADOR O DESTACADO HORIZONTAL -->
+
+	<div class="contador">
+							<ul>
+								<li><span id="days"></span></li>
+								<li><span id="hours"></span>
+											<p>horas</p>
+								</li>
+								<li><span id="minutes"></span>
+											<p>minutos</p>
+								</li>
+								<li><span id="seconds"></span>
+											<p>segundos</p>
+								</li>
+							</ul>
+							</div>
+<!-- image CONTADOR O DESTACADO HORIZONTAL -->
+
+
+
+
+
+
+	<!--CONFIGURACIÓN DEL CONTADOR-->
+
+<script>
+  const second = 1000,
+    minute = second * 60,
+    hour = minute * 60,
+    day = hour * 24;
+
+  let countDown = new Date('Dec 05, 2018 00:00:00').getTime(),
+    x = setInterval(function() {
+
+      let now = new Date().getTime(),
+        distance = countDown - now;
+
+      document.getElementById('days').innerText = Math.floor(distance / (day)),
+        document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+        document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+        document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+
+
+    }, second)
+</script>
+</body>
+</html>
