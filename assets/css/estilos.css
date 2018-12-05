@@ -178,6 +178,10 @@ body{margin:0;}
 
 	/*INDEX*/
 
+	.img-responsive2{
+		max-width: 30%;
+	}
+
 
 	.tmpl-lp .lp-box {
 		/*display: flex;*/
@@ -256,6 +260,7 @@ body{margin:0;}
 		transition: transform .7s, -webkit-transform .7s;
 		-webkit-transform: scale(1);
 		transform: scale(1);
+		margin-top: 10%;
 
 	}
 
