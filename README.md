@@ -32,9 +32,9 @@
 
 ###Referencias
 
-> "Sitio oficial HD", [Link](https://www.harley-davidson.com/us/en/motorcycles/2019/softail/breakout.html)。
-> "Harley-Davidson Santiago Chile", [Link](https://www.h-dsantiago.cl/)。
-> "Imágene contenidas ref", [Link](https://www.harley-davidson.com/content/dam/h-d/images)。
+> "Sitio oficial HD", [Link](https://www.harley-davidson.com/us/en/motorcycles/2019/softail/breakout.html)                    。
+> "Harley-Davidson Santiago Chile", [Link](https://www.h-dsantiago.cl/)。                    
+> "Imágene contenidas ref", [Link](https://www.harley-davidson.com/content/dam/h-d/images)。                    
 
 ***
 
@@ -48,8 +48,8 @@
 * Link directo a los contenidos
 ###Links
 
-.[INDEX](quienes-somos.html)                    
-.[ABOUT US](servicios.html)                    
+[INDEX](quienes-somos.html)                    
+[ABOUT US](servicios.html)                    
 [OWNERS](accesorios.html)                    
 [PARTS & APPAREL](noticias.html)                    
 [EVENTS](noticias.html)                    
